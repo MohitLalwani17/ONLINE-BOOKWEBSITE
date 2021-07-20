@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition-delay: 0.6s
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background: url(cover.jpg);
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+}
+
+ul li{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 5px 20px;
+    margin-right: 15px;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease;
+    display: block; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+hr{
+    border-width: 1px;
+    border-color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    margin-top: 8px;
+}
+
+.main{
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.content {
+  padding: 16px;
+}
+
+.cover_text{
+    position: absolute;
+    top: 35%;
+    left: 23%;
+}
+
+.cover_text h1{
+    color: white;
+    font-size: 48px;
+}
+.cover_text_p{
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 18%;
+    font-size: 28px;
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 66%;
+    left: 40%;
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.container-width{
+    width:90%;
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.flex-sect{
+    background-color:#ffffff;   
+    font-family:Roboto;
+    padding-top: 50px;
+}
+.cards{
+    padding-top:20px 0;
+    display:flex;
+    justify-content:space-around;
+    flex-flow:wrap;
+}
+.card{
+    background-color:white;
+    height:177px;
+    width:279px;
+    margin-bottom:30px;
+    box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius:2px;
+    transition:all 0.5s ease;
+    font-weight:100;
+    overflow:hidden;
+    margin:-4px 0 50px 0;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+}
+.card:hover{
+    margin-top:-5px;
+    box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+#c1{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c2{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c3{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c4{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c5{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c6{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c7{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c8{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+#c9{
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    display:block;
+    opacity:1;
+    background-color:rgba(0,0,0,0.35);
+    color:#ffffff;
+    position:static;
+    font-size:24px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-weight:600;
+    top:0;
+    margin:60px 0 0 0;
+}
+
+.footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+#f_logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#f_text{
+    margin-left: 200px;
+    margin-top:-35px;
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 55%;
+    left: 37%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;     
+}
+
+.login_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.register h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FE527A;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #000;
+    transition: 0.6s ease;  
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    transition: 0.6s ease;
+}
+
+.login a:hover{
+    color: #ffc107;
+    transition: 0.6s ease;
+}
+
+.signup{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 55%;
+    right: 10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;        
+}
+
+.sign_up_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.signup input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FE527A;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 58px;
+}
+
+.signup input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #000;
+    transition: 0.6s ease;  
+}
+
+.register{
+    height: 100%;
+    background-image: url(register_background.jpeg);
+    background-position: center;
+    position: relative;
+    background-size: cover
+}
+
+.about_us{
+    background-color: white;
+    height: 70vh;
+}
+
+.about_us p{
+    padding: 20px 100px 0px;
+    font-size: 20px;
+}
+
+.about_us h1{
+    font-size: 42px;
+    padding-top: 15px;
+}
+
+.help{
+    background-color: white;
+    height: 101vh;
+}
+
+.help p{
+    padding: 20px 160px 0px;
+    font-size: 18px;
+}
+
+.help h1{
+    font-size: 42px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.help h2{
+    font-size: 30px;
+    padding-left: 100px;
+}
